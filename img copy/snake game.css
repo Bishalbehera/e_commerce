@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background: url("snake.png");
+    width: 50%;
+    height: 50%;
+}

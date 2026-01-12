@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: gray;
+    width: 434px;
+    font-family: 'fira Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: blueviolet; */
+    width: 90vw;
+
+}
+
+.container {
+    display: flex;
+
+}
+
+.infocontainer {
+    background-color: white;
+    height: 35vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 50px;
+
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 20px;
+}
+
+.aboutmore {
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 17px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.btn:hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+.devpic img {
+    height: 45vh;
+    justify-content: space-around;
+}
+
+.contactform {
+    font-family: 'Fira Sans', sans-serif;
+    padding-top: 134px;
+    padding: 0 34px;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    padding: 0 12px;
+}
+
+.contactform div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: brown;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+   width: 24px;
+   margin: 3px 0;
+}
+h2{
+    font-family: 'Fira Sans',sans-serif;
+    margin: 23px;
+}
+p{
+    font-family: 'Source Code Pro',monospace;
+}
+.intro h2{
+    font-family: 'Fira Sans',sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Source Code Pro',monospace;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: chocolate;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro',monospace;
+    font-weight: 900;
+}
+.hundered{
+    width: 265px;
+    background-color: deeppink;
+}
+.fifty{
+    width: 125px;
+    background-color: cyan;
+}
+.t5{
+    width: 75px;
+    background-color: crimson;
+}
